@@ -1,0 +1,26 @@
+.wrapper>p {
+    font-family: 'h1font';
+    color: black;
+    text-align: center;
+    margin: auto;
+    font-size: 1.8em;
+    font-weight: normal;
+    position: relative;
+}
+
+.wrapper {
+    display: grid;
+    position: relative;
+    width: 100%;
+    margin-top: 29em;
+}
+
+span {
+    font-family: helvetica;
+}
+
+/* (1200 - 1320)
+
+(1000 - 1200)
+
+(750 - 999) */

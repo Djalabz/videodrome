@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'h1Font';
+    src: url(../../Assets/Futura.ttc);
+  }
+
+.logo {
+    float: left;
+    margin-left: 2em;
+    font-family: 'h1Font';
+    text-transform: uppercase;
+    font-size: 1.4em;
+    cursor: pointer;
+}
+
+.navigation {
+    width: 100%;
+    align-self: center;
+    position: sticky;
+}
+
+.navigation>ul {
+    display: flex;
+    float: right;
+    margin-right: 1.7em;
+}
+
+.navigation>ul>li {
+    margin: 0em 0.8em;
+    font-size: 0.8em;
+    cursor: pointer;
+    align-self: center;
+}
+
+.navigation>ul>li>button {
+    padding: 0.8em 0.8em;
+    font-weight: bold;
+    border: 1px;
+    border-style: solid;
+    border-radius: 35px;
+    border-color: white;
+    background-color:#E86B00;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+header {
+    display: inline-block;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+}
