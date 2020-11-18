@@ -15,7 +15,7 @@
 .navigation {
     width: 100%;
     align-self: center;
-    position: sticky;
+    float: right;
 }
 
 .navigation>ul {
@@ -50,7 +50,7 @@ header {
 }
 
 .nav {
+    padding-bottom: 0em;
+    position: sticky;
     display: flex;
-    padding-top: 0.7em;
-    padding-bottom: 0.7em;
 }

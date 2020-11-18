@@ -1,3 +1,4 @@
+import SearchBar from '../SearchBar';
 import React from 'react';
 import './index.css';
 
@@ -9,6 +10,7 @@ const Navbar=() => {
         <div className="logo">
             <p>videodrome</p>
         </div>
+        <SearchBar />
         <nav className="navigation">
           <ul>
             <li exact to='/about'>About</li>

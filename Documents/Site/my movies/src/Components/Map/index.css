@@ -1,0 +1,11 @@
+.app-map {
+    width: 100%;
+    text-align: center;
+}
+
+.marker-btn {
+    background: url('../../Assets/svg/placeholder.svg');
+    border: none;
+    width: 2em;
+    height: 2em;
+}

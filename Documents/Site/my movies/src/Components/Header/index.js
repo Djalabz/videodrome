@@ -9,9 +9,9 @@ const Header=() => {
     <header>
 <Navbar>
 </Navbar>
-<Banner>
-</Banner>
-    </header>
+</header>
+/* <Banner>
+</Banner> */   
   )
 };
 

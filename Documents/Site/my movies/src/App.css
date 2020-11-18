@@ -27,8 +27,11 @@
 
 body {
   font-family: helvetica;
+  overflow: hidden;
 }
 
 ul {
   list-style-type: none;
 }
+
+:focus {outline:0 !important;}

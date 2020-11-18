@@ -15,10 +15,11 @@ import lahainebanner from '../../Assets/Images/lahaineBanner.webp'
 import lockstockbanner from '../../Assets/Images/lockstockBanner.webp'
 import escapebanner from '../../Assets/Images/escapefromnyBanner.webp'
 import handmaidenbanner from '../../Assets/Images/handmaidenBanner.webp'
+import bittersweetbanner from '../../Assets/Images/bittersweetlifeBanner.webp'
 
 const Banner=() => {
 
-const bannerArray = [handmaidenbanner, escapebanner, lockstockbanner, lahainebanner, tenantbanner, wailingbanner, goodbadbanner, enterthevoidbanner, suspiriabanner, odyssey2banner, barrybanner, bladerunnerbanner, memoriesmurderbanner, prophetbanner, therewillbebloodbanner]
+const bannerArray = [bittersweetbanner, handmaidenbanner, escapebanner, lockstockbanner, lahainebanner, tenantbanner, wailingbanner, goodbadbanner, enterthevoidbanner, suspiriabanner, odyssey2banner, barrybanner, bladerunnerbanner, memoriesmurderbanner, prophetbanner, therewillbebloodbanner]
 const randomIndex = Math.floor(Math.random() * bannerArray.length);
 const selectedPicture = bannerArray[randomIndex];
 

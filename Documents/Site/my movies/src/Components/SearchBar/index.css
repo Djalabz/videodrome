@@ -1,0 +1,23 @@
+.searchBar {
+    margin-left: 3em;
+    align-self: center;
+}
+
+form>input {
+    padding: 0.5em;
+    border-radius: 18px;
+    border: 1.7px solid gray 
+}
+
+.searchBar>form>button {
+    margin-left: 0.6em;
+    padding: 0.5em;
+    border: none;
+}
+
+.search-main {
+    background: url(../../Assets/svg/search.svg);
+    align-self: center;
+    width: 1.6em;
+    height: 1.6em;
+}
